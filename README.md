@@ -133,6 +133,21 @@ int var4 = ExampleClass.ResultSoFar();
 // 以下声明将会创建一个query,但并不会运行这个
 // query
 ```
+- 公有方法需要提供参数，返回值，方法的说明
+```
+public class GameMode
+{
+    /// <summary>
+    /// 调用来执行技能
+    /// </summary>
+    /// <param name="skill">技能的实例</param>
+    public void ExecuteSkill(Skill skill)
+    {
+        // 先入队，等待执行
+        skillQueue.Enqueue(skill);
+    }
+}
+```
 
 # 关于Delegates
 使用更简洁的形式去创建delegate类型的实例
