@@ -134,7 +134,11 @@ int var4 = ExampleClass.ResultSoFar();
 // query
 ```
 - 公有方法需要提供参数，返回值，方法的说明
+- 本地类需要提供注释
 ```
+/// <summary>
+/// 游戏规则的实现类
+/// </summary>
 public class GameMode
 {
     /// <summary>
