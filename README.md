@@ -59,9 +59,6 @@ if (x==y)
 ```
 # 代码命名规则
 - 不要定义形如m_xxx这样的成员变量，直接命名为xxx，如果声明了形如Xxx的property，可以定义同名的_xxx变量
-```
-
-```
 - 对于成员变量，使用驼峰命名法
 ```
 public int camelCasing = 1;
